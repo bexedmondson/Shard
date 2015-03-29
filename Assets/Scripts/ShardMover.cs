@@ -27,6 +27,7 @@ public class ShardMover : MonoBehaviour {
 			if (other.GetComponent<PlayerController>().isDead()) {
 				GameController gameController = GameObject.FindWithTag("GameController").GetComponent<GameController>();
 				gameController.FinishGame();
+				//TODO - testing github - remove this code
 			}
 		}
 	}
